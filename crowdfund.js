@@ -95,9 +95,7 @@ const updateStock = () => {
     };;
 };
 
-
 // Overlay Close
-
 overlay.addEventListener("click", () => {
     if (mobileNav.classList.contains("active")) {
         toggleNav();
@@ -110,9 +108,7 @@ overlay.addEventListener("click", () => {
     };
 });
 
-
 // Mobile Menu
-
 openNav.addEventListener("click", () => {
     mobileNav.style.opacity = 1;
     mobileNav.style.maxHeight = mobileNav.scrollHeight + "px";
@@ -127,7 +123,6 @@ closeNav.addEventListener("click", () => {
 
 
 // Bookmark Button
-
 bookmark.addEventListener("click", () => {
     bookmark.classList.toggle("active");
     if (bookmark.classList.contains("active")) {
@@ -171,7 +166,6 @@ selects.forEach(select => {
 
 
 // Form Validation
-
 continueButtons.forEach(b => {
     b.addEventListener("click", event => {
         event.preventDefault();
@@ -193,9 +187,7 @@ continueButtons.forEach(b => {
     });
 });
 
-
 // Confirmation
-
 finalizeButton.addEventListener("click", () => {
     overlay.classList.toggle("inactive");
     overlay.classList.toggle("active");
