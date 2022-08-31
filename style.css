@@ -409,9 +409,7 @@ header {
     color: hsl(176, 72%, 28%);
 }
 
-
 /* Selection Modal */
-
 #modal {
     position: fixed;
     top: 10vh;
